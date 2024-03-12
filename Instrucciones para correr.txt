@@ -1,0 +1,28 @@
+Para correrlo de manera local:
+Abre una terminal o línea de comandos y navega hasta el directorio donde guardaste el archivo, o localiza primero el archivo y abre directtamente la terminal en la ubicación.
+
+Asegúrate de tener Node.js instalado en tu sistema. Puedes comprobarlo ejecutando el siguiente comando en la terminal:
+node --version
+Si Node.js está instalado, verás la versión instalada. Si no está instalado, descárgalo e instálalo desde el sitio web oficial de Node.js.
+el sitio es: https://nodejs.org/
+
+Una vez nos aseguramos que node esta instalado, corremos el siguiente comando en dicha terminal en el directorio:
+npm install
+Esto instalara la libreria necesaria para la criptografia.
+
+Ejecuta el archivo .js con Node.js utilizando el siguiente comando:
+node blockchain.js
+Verás la salida en la consola, que incluirá mensajes de registro como "Block mined: ..." entre otras.
+
+Para revisar el codigo, unicamente es necesario tener un editor de codigo que acepte javascript o en otro caso un editor de texto.
+
+Para correrlo usando la web:
+Se puede usar editores de codigo web que nos permitan ver el resultado del codigo sin necesidad de instalar nada en nuestra maquina.
+Pocos de estos permiten el uso de librerias externas y en este caso necesitamos que sea posible para poder usar la libreria de criptografia que me permite hacer el hashing
+Por esto vamos a usar "replit" la cual es un editor web gratuito que permite el uso de librerias externas.
+Lo encontramos en esta pagina: https://replit.com 
+Entonces simplemente debemos crear una cuenta nueva y crear un proyecto nuevo de node
+Luego de esto pegamos el codigo en el apartado de codigo javascript (normalmente se llama index.js) y le damos a correr
+El proceso es un poco lento y tiene un limite de CPU usage por dia, sin embargo en este lugar es posible correr el codigo.
+En caso tal de que lo anterior no funcionase, tengo alojado el codigo en un replit propio, al cual se le puede hacer fork
+El replit esta alojado aqui: https://replit.com/@camilovelezp/Blockchainjs#index.js
